@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow:0 0 0 50px #F4F9FF inset; /* Change the color to your own background color */
+  -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px #F4F9FF inset;/*your box-shadow*/
+  -webkit-text-fill-color: #333;
+} 
+
+#email:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #F4F9FF inset;/*your box-shadow*/
+}
+#password:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #F4F9FF inset;/*your box-shadow*/
+}
+#confirmPassword:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #F4F9FF inset;/*your box-shadow*/
+}
+

@@ -1,0 +1,69 @@
+{
+  "name": "ensemble-app-fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "@hookform/resolvers": "2.9.10",
+    "@mui/icons-material": "5.11.0",
+    "@mui/material": "5.11.0",
+    "@mui/x-data-grid": "5.17.16",
+    "@reduxjs/toolkit": "1.9.1",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "13.5.0",
+    "axios": "1.2.1",
+    "formik": "2.2.9",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "moment": "2.29.4",
+    "react": "18.2.0",
+    "react-circular-progressbar": "2.1.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.41.5",
+    "react-icons": "4.7.1",
+    "react-individual-character-input-boxes": "^1.2.1",
+    "react-redux": "8.0.5",
+    "react-router-dom": "6.6.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "2.1.4",
+    "yup": "0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write ./**/*.{js,jsx,html} --config ./.prettierrc",
+    "check": "prettier --write ./**/*.{js,jsx,html}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "8.30.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.11",
+    "prettier": "2.8.1"
+  }
+}
